@@ -1,96 +1,96 @@
 @font-face {
-    font-family: nunito-200; 
-    src: url(/local/templates/landing_castom/fonts/Nunito-ExtraLight.ttf) format('truetype');
+    font-family: 'nunito-200'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Nunito-ExtraLight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
 }
 @font-face {
     font-family: 'nunito-200-i'; 
-    src: url('/local/templates/landing_castom/fonts/Nunito-ExtraLightItalic.ttf') format('truetype');
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Nunito-ExtraLightItalic.ttf') format('truetype');
     font-weight: 200;
     font-style: italic;
 }
 @font-face {
-    font-family: nunito-300; 
-    src: url(/local/templates/landing_castom/fonts/Nunito-Light.ttf) format('truetype');
+    font-family: 'nunito-300'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Nunito-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
-    font-family: nunito-300-i; 
-    src: url(/local/templates/landing_castom/fonts/Nunito-LightItalic.ttf) format('truetype');
+    font-family: 'nunito-300-i'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Nunito-LightItalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
 }
 @font-face {
-    font-family: nunito-400; 
-    src: url(/local/templates/landing_castom/fonts/Nunito-Regular.ttf) format('truetype');
+    font-family: 'nunito-400'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Nunito-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    font-family: nunito-400-i; 
-    src: url(/local/templates/landing_castom/fonts/Nunito-Italic.ttf) format('truetype');
+    font-family: 'nunito-400-i'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Nunito-Italic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
-    font-family: nunito-500; 
-    src: url(/local/templates/landing_castom/fonts/Nunito-Medium.ttf) format('truetype');
+    font-family: 'nunito-500'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Nunito-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
-    font-family: nunito-500-i; 
-    src: url(/local/templates/landing_castom/fonts/Nunito-MediumItalic.ttf) format('truetype');
+    font-family: 'nunito-500-i'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Nunito-MediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
 }
 @font-face {
-    font-family: nunito-600; 
-    src: url(/local/templates/landing_castom/fonts/Nunito-SemiBold.ttf) format('truetype');
+    font-family: 'nunito-600'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Nunito-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
-    font-family: nunito-600-i; 
-    src: url(/local/templates/landing_castom/fonts/Nunito-SemiBoldItalic.ttf) format('truetype');
+    font-family: 'nunito-600-i'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Nunito-SemiBoldItalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
 }
 @font-face {
-    font-family: nunito-700; 
-    src: url(/local/templates/landing_castom/fonts/Nunito-Bold.ttf) format('truetype');
+    font-family: 'nunito-700'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Nunito-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
-    font-family: nunito-700-i; 
-    src: url(/local/templates/landing_castom/fonts/Nunito-BoldItalic.ttf) format('truetype');
+    font-family: 'nunito-700-i'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Nunito-BoldItalic.ttf') format('truetype');
     font-weight: 700;
     font-style: italic;
 }
 @font-face {
-    font-family: nunito-800; 
-    src: url(/local/templates/landing_castom/fonts/Nunito-ExtraBold.ttf) format('truetype');
+    font-family: 'nunito-800'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Nunito-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
 @font-face {
-    font-family: nunito-800-i; 
-    src: url(local/templates/landing_castom/fonts/Nunito-ExtraBoldItalic.ttf) format('truetype');
+    font-family: 'nunito-800-i'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Nunito-ExtraBoldItalic.ttf') format('truetype');
     font-weight: 800;
     font-style: italic;
 }
 @font-face {
-    font-family: nunito-900; 
-    src: url(local/templates/landing_castom/fonts/Nunito-Black.ttf) format('truetype');
+    font-family: 'nunito-900'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Nunito-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
-    font-family: nunito-900-i; 
-    src: url(local/templates/landing_castom/fonts/Nunito-BlackItalic.ttf) format('truetype');
+    font-family: 'nunito-900-i'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Nunito-BlackItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
 }
@@ -99,110 +99,110 @@
 
 
 @font-face {
-    font-family: mon-100; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-Thin.ttf) format('truetype');
+    font-family: 'mon-100'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }
 @font-face {
-    font-family: mon-100-i; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-ThinItalic.ttf) format('truetype');
+    font-family:'mon-100-i'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-ThinItalic.ttf') format('truetype');
     font-weight: 100;
     font-style: italic;
 }
 @font-face {
-    font-family: mon-200; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-ExtraLight.ttf) format('truetype');
+    font-family: 'mon-200'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-ExtraLight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
 }
 @font-face {
-    font-family: mon-200-i; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-ExtraLightItalic.ttf) format('truetype');
+    font-family: 'mon-200-i'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-ExtraLightItalic.ttf') format('truetype');
     font-weight: 200;
     font-style: italic;
 }
 @font-face {
-    font-family: mon-300; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-Light.ttf) format('truetype');
+    font-family: 'mon-300'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
-    font-family: mon-300-i; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-LightItalic.ttf) format('truetype');
+    font-family: 'mon-300-i'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-LightItalic.ttf') format('truetype');
     font-weight: 300;
     font-style: italic;
 }
 @font-face {
-    font-family: mon-400; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-Regular.ttf) format('truetype');
+    font-family: 'mon-400'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    font-family: mon-400-i; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-Italic.ttf) format('truetype');
+    font-family: 'mon-400-i'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-Italic.ttf') format('truetype');
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
-    font-family: mon-500; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-Medium.ttf) format('truetype');
+    font-family: 'mon-500'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
-    font-family: mon-500-i; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-MediumItalic.ttf) format('truetype');
+    font-family: 'mon-500-i'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-MediumItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
 }
 @font-face {
-    font-family: mon-600; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-SemiBold.ttf) format('truetype');
+    font-family: 'mon-600'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
-    font-family: mon-600-i; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-SemiBoldItalic.ttf) format('truetype');
+    font-family: 'mon-600-i'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-SemiBoldItalic.ttf') format('truetype');
     font-weight: 600;
     font-style: italic;
 }
 @font-face {
-    font-family: mon-700; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-Bold.ttf) format('truetype');
+    font-family: 'mon-700'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
-    font-family: mon-700-i; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-BoldItalic.ttf) format('truetype');
+    font-family: 'mon-700-i'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-BoldItalic.ttf') format('truetype');
     font-weight: 700;
     font-style: italic;
 }
 @font-face {
-    font-family: mon-800; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-ExtraBold.ttf) format('truetype');
+    font-family: 'mon-800'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
 @font-face {
-    font-family: mon-800-i; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-ExtraBoldItalic.ttf) format('truetype');
+    font-family: 'mon-800-i'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-ExtraBoldItalic.ttf') format('truetype');
     font-weight: 800;
     font-style: italic;
 }
 @font-face {
-    font-family: mon-900; 
-    src: url(/local/templates/landing_castom/fonts/Montserrat-Black.ttf) format('truetype');
+    font-family: 'mon-900'; 
+    src: url('/E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-Black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
-    font-family: mon-900-i; 
-    src: url(local/templates/landing_castom/fonts/Montserrat-BlackItalic.ttf) format('truetype');
+    font-family: 'mon-900-i'; 
+    src: url('E:/подработка/Димон/лендинг/mikhailBrann.github.io/works/landing/local/templates/landing_castom/fonts/Montserrat-BlackItalic.ttf') format('truetype');
     font-weight: 900;
     font-style: italic;
 }

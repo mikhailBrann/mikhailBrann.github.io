@@ -1,7 +1,335 @@
 @import url("fonts.css");
 
+* {
+    box-sizing: border-box;
+    position: relative;
+}
 
-h1 {
-    font-size: 130px;
-    font-family: 'nunito-200-i';
+body {
+    margin: 0;
+    background: #FFF;
+}
+
+.container {
+    max-width: 1410px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/**/
+header {
+    background: #FDFEFF;
+    box-shadow: 0px 2px 8px rgba(15, 32, 108, 0.23);
+    z-index: 1;
+}
+
+.header_outher {
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo.header {
+    box-sizing: border-box;
+    padding-left: 27px;
+}
+
+.header_nav {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-column-gap: 30px;
+    padding-top: 20px;
+}
+
+.header_nav > * {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: nunito-800;
+    color: #0F206C;
+    transition: .3s;
+}
+
+.header_nav > *:hover {
+    color: #C29FD8;
+    cursor: pointer;
+}
+
+.instagram.header {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.instagram.header img {
+    display: block;
+}
+
+/**/
+.main_banner_inner {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.main_banner_outher {
+    background: url(local/templates/landing_castom/img/header/main_banner_bg.jpg);
+    background-size: contain;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    box-shadow: 0px 2px 8px rgb(15 32 108 / 23%);
+}
+
+.m_banner_text {
+    max-width: 50%;
+}
+
+.m_banner_title {
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #0F206C;
+    font-family: nunito-900;
+    display: inline-flex;
+    min-height: 86px;
+    z-index: 1;
+    align-items: center;
+}
+
+.m_banner_title:before {
+    content: '';
+    display: block;
+    width: 86px;
+    height: 86px;
+    background: #FFEBF1;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+}
+
+.m_banner_title span {
+    padding-left: 2px;
+}
+
+.m_banner_descr {
+    line-height: 170%;
+    font-size: 24px;
+    color: #0F206C;
+    font-family: mon-500-i;
+    padding-bottom: 60px;
+}
+
+.m_banner_descr > .fat {
+    font-family: mon-700-i;
+}
+
+
+.m_banner_advent_wrapp {
+    display: grid;
+    grid-template-columns: 8.1fr 8.1fr 9.5fr;
+    grid-column-gap: 30px;
+    padding-bottom: 90px;
+}
+
+.m_banner_advent_cont {
+    border-radius: 60px;
+    box-shadow: 5px 12px 6px rgba(104, 104, 104, 0.13);
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 5px solid;
+    padding: 25px 20px 32px;
+}
+
+.m_banner_advent_cont.blue {
+    border-color: #7fd5ed;
+}
+
+.m_banner_advent_cont.green {
+    border-color: #67dad5;
+}
+
+.m_banner_advent_cont.purple {
+    border-color: #c7a8db;
+}
+
+.m_banner_advent_cont_title {
+    font-family: 'nunito-800';
+    padding: 10px 0;
+}
+
+.blue > .m_banner_advent_cont_title {
+    color: #7FD5ED;
+}
+
+.green > .m_banner_advent_cont_title {
+    color: #67DAD5;
+}
+
+.purple > .m_banner_advent_cont_title {
+    color: #C7A8DB;
+}
+
+.m_banner_advent_cont_descr {
+    font-size: 17px;
+    line-height: 140%;
+    font-family: mon-400;
+    color: #0F206C;
+}
+
+.m_banner_advent_cont_descr > .fat {
+    font-family: mon-600;
+}
+
+.m_banner_tagline_wrapp {
+    background: linear-gradient(90deg, #FFBACD 0%, #97DFFE 105.91%);
+    border-radius: 63px;
+    text-align: center;
+    padding: 0 15px;
+    font-family: 'nunito-800';
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 150%;
+}
+
+.m_banner_tagline_wrapp > img {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    max-width: 148px;
+    transform: translateY(-50%);
+}
+
+.clip_main_wrapp > img {
+    display: block;
+    max-width: 100%;
+}
+
+/**/
+.how_help_outher {
+    background: #F9FBFE;
+}
+
+.how_help_inner {
+    padding: 80px 0 90px;
+}
+
+.how_help_cont_wrapp {
+    display: grid;
+    grid-template-columns: 1.14fr 0.86fr;
+    grid-column-gap: 80px;
+}
+
+.how_help_cont.left > img {
+    display: block;
+    width: 100%;
+}
+
+.how_help_cont_title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.how_help_cont_title > span {
+    color: #0F206C;
+    font-family: nunito-800-i;
+    font-size: 24px;
+}
+
+.how_help_cont_title > img {
+    max-width: 240px;
+    margin-top: 5px;
+}
+
+.how_help_cont_descr {
+    color: #0F206C;
+    font-size: 24px;
+    line-height: 150%;
+    font-family: 'mon-500-i';
+    margin-bottom: 45px;
+}
+
+.how_help_cont_more {
+    background: #FFFFFF;
+    border: 3px solid #C29FD8;
+    box-sizing: border-box;
+    border-radius: 40px;
+    padding: 20px 68px;
+    text-decoration: none;
+    color: #C29FD8;
+    font-size: 18px;
+    font-family: nunito-700;
+    cursor:pointer;
+    transition: .3s;
+    filter: drop-shadow(4px 4px 4px rgba(15, 32, 108, 0.2));
+}
+
+.how_help_cont_more:hover {
+    background: linear-gradient(87.17deg, #FFBBD7 0.73%, #95E1FF 97.73%);
+    box-shadow: 4px 4px 4px rgba(15, 32, 108, 0.2);
+    border: 3px solid #c29fd800;
+    filter: none;
+    color: #fff;
+}
+
+/**/
+.tab_product_outher {
+    padding: 140px 0;
+}
+
+.m_banner_title.align_center {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tab_product_checkers {
+    display: grid;
+    justify-content: center;
+    margin: 40px 0;
+    grid-template-columns: repeat(3, minmax(320px, auto));
+    grid-column-gap: 30px;
+}
+
+.tab_product_check {
+    background: #F0F3F8;
+    border-radius: 30px;
+    padding: 41px 60px;
+    font-size: 20px;
+    font-family: mon-700;
+    color: #BFC5D0;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.tab_product_check.active {
+    color: #fff;
+    box-shadow: 8px 8px 8px rgba(15, 32, 108, 0.2);
+}
+
+.tab_product_check.blue.active {
+    background: #86D1E6;
+}
+
+.tab_product_check.green.active {
+    background: #67DAD5;
+}
+
+.tab_product_check.purple.active {
+    background: #C29FD8;
+}
+
+.tab_product_view img {
+    display: inline-block;
+    max-width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
 }
